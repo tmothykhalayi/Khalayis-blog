@@ -6,15 +6,8 @@ export function UserProfile(){
          <span>Email:</span>
          <span>Timothykhalayi96@gmail.com</span>
          </div>
-        <section>
-            <span>Favorite foods:</span>
-            <br />
-            <ul>
-                <li>Chapati</li>
-                <li>Homelet Eggs</li>
-                <li>Bread</li>
-            </ul>
-        </section>
+
+       <UserFavoriteFoods/>
     
     </div>
     );
