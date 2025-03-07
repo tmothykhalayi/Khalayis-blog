@@ -1,7 +1,7 @@
 export function UserProfile(){
     return (
     <div>
-        <p> Username :Timothy</p>
+        <Username username="Timothy" />
         <div>
          <span>Email:</span>
          <span>Timothykhalayi96@gmail.com</span>
