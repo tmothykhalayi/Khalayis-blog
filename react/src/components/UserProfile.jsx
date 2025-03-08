@@ -1,3 +1,4 @@
+import propTypes from  'prop-types';
 import React from 'react';
 import { Username } from './Username';
 import { UserFavoritefoods } from './UserFavoritefoods';
@@ -13,4 +14,7 @@ export function UserProfile() {
       <UserFavoritefoods />
     </div>
   );
+}
+UserProfile.propTypes = {
+
 }
