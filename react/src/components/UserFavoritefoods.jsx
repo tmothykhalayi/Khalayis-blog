@@ -1,6 +1,6 @@
 import { createElement } from "react";
  
- export function UserFavoriteFoods(){
+ export function UserFavoritefoods(){
     return  createElement('div' , null ,<section>
         <span>Favorite foods:</span>
         <br />
