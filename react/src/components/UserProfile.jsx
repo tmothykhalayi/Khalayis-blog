@@ -1,7 +1,7 @@
 import propTypes from  'prop-types';
 import React from 'react';
 import { Username } from './Username';
-import { UserFavoritefoods } from './UserFavoritefoods';
+import { UserFavoritefoods } from './UserFavoriteFoods';
 
 export function UserProfile() {
   return (
