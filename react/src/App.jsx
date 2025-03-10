@@ -1,10 +1,17 @@
-import{UserProfile} from "./components/UserProfile";
-export default function App(){
-return (
-    <div>
-        <h1>Root component</h1>
-        <UserProfile/>
-    </div>
-);
-
+export default  function App(){
+    const isauthenticated = false;
+    if (isauthenticated) {
+        return (
+            <div>
+                <h1>welcome ,user!</h1>
+            </div>
+        );
+        return(
+            <div>
+                <span>you are not logged in</span>
+            </div>
+            
+        );
+        
+    }
 }

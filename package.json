@@ -2,5 +2,8 @@
   "dependencies": {
     "prop-types": "^15.8.1",
     "sass": "^1.85.1"
+  },
+  "devDependencies": {
+    "vite": "^6.2.1"
   }
 }
