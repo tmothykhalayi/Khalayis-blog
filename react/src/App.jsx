@@ -12,6 +12,9 @@ export default  function App(){
             </div>
             
         );
+        <div>
+            <loginform/>
+            </div>
         
     }
 }
